@@ -1,0 +1,23 @@
+1. Стандарт языка
+    - abstract machine
+    - as-if 
+    - implementation-defined unspecified и undefined behaviour
+2. Примеры unspecified
+    - Порядок вызовов функций - https://godbolt.org/z/MsMKbM758
+
+3. Знаковое переполнение
+    - Делаем что-то "пока не переполнится" https://godbolt.org/z/5dx37dfaW
+    - Сделаем хеш-функцию неотрицательной! https://godbolt.org/z/M5jzhrh3b
+
+4. Висячие ссылки
+    - min https://godbolt.org/z/Mxz7zq38f
+    - push_back в vector https://godbolt.org/z/sonEj94Tc
+
+5. Всякое разное
+    - но я же его не использую! https://godbolt.org/z/8a9TWzM4x
+    - опровергаем великую теоерму ферма https://godbolt.org/z/nE7oWf
+    - 5 сегодня четное - https://godbolt.org/z/r7zocTGa9
+    - null не крешится - https://godbolt.org/z/esErhxhjY
+    - зарезервированные имена - https://godbolt.org/z/jTT9T6jW4
+    - еще зарезервированные имена - https://godbolt.org/z/nWqfjoYT7
+    - неинициализированные переменные как источник рандома - https://godbolt.org/z/jc66Y13j1
